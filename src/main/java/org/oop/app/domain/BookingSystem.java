@@ -38,6 +38,17 @@ public class BookingSystem {
         return tichet;
     }
 
-    // Alte metode pentru anularea rezervării și gestionarea obiectelor din sistem
+    // Metodă pentru rezervare
+    public String rezervaLoc(Pasager pasager, Ruta ruta, Vehicul vehicul, Plata plata, String loc) {
+        int locuriRezervate = (int) tichete.stream().filter(t -> t.getRuta().equals(ruta)).count();
+
+        if (locuriRezervate >= vehicul.getCapacitate()) {
+            return "Nu mai sunt locuri disponibile";
+        } else {
+            Tichet tichet = new Tichet(tichete.size() + 1, pasager, ruta, plata, loc);
+            tichete.add(tichet);
+            return "Rezervare efectuată pentru locul " + loc;
+        }
+    }
 }
 

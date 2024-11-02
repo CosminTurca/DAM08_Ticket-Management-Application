@@ -2,7 +2,7 @@ package org.oop.app.teste;
 
 import org.oop.app.domain.*;
 
-public class Rezervare_bilet_calatorie {
+public class Achizitionare_bilet_calatorie {
 
     public static void main(String[] args) {
         // Pasul 1: Creăm un pasager
