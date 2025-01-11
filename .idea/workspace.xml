@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f429a549-0c1e-4b1d-91d5-73f4639198f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/RestRepositoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/SpringBootRESTDataServices_ScrumApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/database/DataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Pasager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Plata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/ProgramRuta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Ruta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Sofer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Tichet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Vehicul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/security/BasicConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/security/ScrumSecurityJpaConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/security/ScrumUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/security/ScrumUserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/security/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/security/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DAM08.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/domain/BookingSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/domain/Pasager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/domain/Plata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/domain/ProgramRuta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/domain/Ruta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/domain/Sofer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/domain/Tichet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/domain/Vehicul.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/teste/Achizitionare_bilet_calatorie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oop/app/teste/Rezervare_bilet_ruta.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f429a549-0c1e-4b1d-91d5-73f4639198f4" name="Changes" comment="Update Project Class + Add Annotations, Database, Repository, Security" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,8 +88,25 @@
       <option name="presentableId" value="Default" />
       <updated>1736607083124</updated>
       <workItem from="1736607086961" duration="40000" />
-      <workItem from="1736607247633" duration="4426000" />
+      <workItem from="1736607247633" duration="4760000" />
     </task>
+    <task id="LOCAL-00001" summary="Update Project Class + Add Annotations, Database, Repository, Security">
+      <option name="closed" value="true" />
+      <created>1736611879776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736611879776</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update Project Class + Add Annotations, Database, Repository, Security">
+      <option name="closed" value="true" />
+      <created>1736611988669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736611988669</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Actualizare proiect- dependente" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Update Project Class + Add Annotations, Database, Repository, Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Project Class + Add Annotations, Database, Repository, Security" />
   </component>
 </project>
