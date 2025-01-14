@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f429a549-0c1e-4b1d-91d5-73f4639198f4" name="Changes" comment="Update Project Class + Add Annotations, Database, Repository, Security" />
+    <list default="true" id="f429a549-0c1e-4b1d-91d5-73f4639198f4" name="Changes" comment="Update Project Class + Add Annotations, Database, Repository, Security">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/PasagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/PlataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/ProgramRutaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/RutaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/SoferController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/TichetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/VehiculController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/PasagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/PlataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/ProgramRutaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/RutaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/SoferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/TichetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/VehiculService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/scrum/security/Test_AddScrumUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/docker-admin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/database/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/database/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Pasager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Pasager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Sofer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Sofer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Tichet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Tichet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Vehicul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Vehicul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/database/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/database/DataLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Pasager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Pasager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Ruta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Ruta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Sofer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Sofer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Tichet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Tichet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Vehicul.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Vehicul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/security/BasicConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/security/BasicConfiguration.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +59,9 @@
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,33 +74,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/Desktop/IdeaProjects/Proiect programare/Magazin de muzica - Vaadin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/IdeaProjects/msd.t4_c12.vaadin_web_app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\IdeaProjects\DAM08_Ticket-Management-Application\.idea" />
+      <recent name="C:\Users\User\Desktop\IdeaProjects\DAM08_Ticket-Management-Application" />
+      <recent name="C:\Users\User\Desktop\IdeaProjects\DAM08_Ticket-Management-Application\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\IdeaProjects\DAM08_Ticket-Management-Application\.idea" />
       <recent name="C:\Users\User\Desktop\IdeaProjects\DAM08_Ticket-Management-Application\src\main\java" />
       <recent name="C:\Users\User\Desktop\IdeaProjects\DAM08_Ticket-Management-Application\src\main\java\org\scrum\domain" />
       <recent name="C:\Users\User\Desktop\IdeaProjects\DAM08_Ticket-Management-Application\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.scrum.services" />
+      <recent name="org.scrum.controller" />
       <recent name="org.scrum" />
       <recent name="org.scrum.security" />
     </key>
@@ -72,7 +124,7 @@
   <component name="RunManager">
     <configuration name="SpringBootRESTDataServices_ScrumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="msd.t3_c10.springboot_rest_data_services" />
+      <module name="DAM08_Ticket-Management-Application" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.scrum.SpringBootRESTDataServices_ScrumApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +141,19 @@
       <updated>1736607083124</updated>
       <workItem from="1736607086961" duration="40000" />
       <workItem from="1736607247633" duration="4835000" />
+      <workItem from="1736612092867" duration="9528000" />
+      <workItem from="1736668486185" duration="4933000" />
+      <workItem from="1736677589318" duration="890000" />
+      <workItem from="1736689302475" duration="39000" />
+      <workItem from="1736786695890" duration="353000" />
+      <workItem from="1736839737414" duration="8003000" />
+      <workItem from="1736849723312" duration="4000" />
+      <workItem from="1736849829767" duration="20000" />
+      <workItem from="1736849852392" duration="30000" />
+      <workItem from="1736867269428" duration="87000" />
+      <workItem from="1736867381005" duration="415000" />
+      <workItem from="1736877675578" duration="623000" />
+      <workItem from="1736886449643" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="Update Project Class + Add Annotations, Database, Repository, Security">
       <option name="closed" value="true" />
@@ -114,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736612025191</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update Project Class + Add Annotations, Database, Repository, Security">
+      <option name="closed" value="true" />
+      <created>1736612163009</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736612163009</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +198,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

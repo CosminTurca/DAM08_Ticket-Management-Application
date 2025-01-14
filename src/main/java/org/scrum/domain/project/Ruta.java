@@ -1,5 +1,6 @@
 package org.scrum.domain.project;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +15,7 @@ public class Ruta {
     @JoinColumn(name = "program_ruta_id")
     private ProgramRuta programRuta;
     @OneToMany(mappedBy = "ruta", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Vehicul> vehicule = new ArrayList<>();
     public Ruta() {
     }

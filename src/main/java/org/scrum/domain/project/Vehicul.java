@@ -1,5 +1,6 @@
 package org.scrum.domain.project;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -25,14 +26,19 @@ public class Vehicul implements Serializable {
     private Integer capacitate;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "sofer_id", nullable = false)
+    @JsonBackReference
     @NotNull(message = "Un șofer trebuie asociat vehiculului!")
     private Sofer sofer;
     @ManyToOne
     @JoinColumn(name = "ruta_id")
+    @JsonBackReference
     private Ruta ruta;
     public Vehicul(String numarInmatriculare, int capacitate, Sofer sofer) {
         this.numarInmatriculare = numarInmatriculare;
         this.capacitate = capacitate;
         this.sofer = sofer;
+    }
+    public void setVehiculId(Integer vehiculId) {
+        this.vehiculId =vehiculId;
     }
 }

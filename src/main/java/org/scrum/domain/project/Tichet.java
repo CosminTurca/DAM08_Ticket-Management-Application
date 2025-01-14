@@ -1,6 +1,7 @@
 package org.scrum.domain.project;
 
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
@@ -20,18 +21,22 @@ public class Tichet implements Serializable {
     private Integer tichetId;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "pasager_id", nullable = false)
+    @JsonBackReference
     @NotNull(message = "Pasagerul este obligatoriu!")
     private Pasager pasager;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "ruta_id", nullable = false)
+    @JsonBackReference
     @NotNull(message = "Ruta este obligatorie!")
     private Ruta ruta;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "vehicul_id", nullable = false)
+    @JsonBackReference
     @NotNull(message = "Vehicolul este obligatoriu!")
     private Vehicul vehicul;
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "plata_id", nullable = false)
+    @JsonBackReference
     @NotNull(message = "Plata este obligatorie!")
     private Plata plata;
     @NotNull(message = "Locul este obligatoriu!")

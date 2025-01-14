@@ -2,15 +2,22 @@ package org.scrum.database;
 
 import org.scrum.domain.project.*;
 import org.scrum.domain.repositories.*;
+import org.scrum.security.User;
+import org.scrum.security.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
 public class DataLoader {
+    /*
     @Bean
     public CommandLineRunner initDatabase(
          PasagerRepository pasagerRepository,
@@ -20,6 +27,7 @@ public class DataLoader {
             SoferRepository soferRepository,
             TichetRepository tichetRepository,
             VehiculRepository vehiculRepository) {
+
        return args -> {
             List<Pasager> pasageri = List.of(
                     new Pasager("Ion Popescu", "ion.popescu@example.com", "0723456789"),
@@ -83,4 +91,5 @@ public class DataLoader {
             tichetRepository.saveAll(tichete);
         };
     }
+    */
 }

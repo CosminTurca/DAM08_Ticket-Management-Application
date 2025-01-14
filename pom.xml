@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.feaa.msd</groupId>
-    <artifactId>msd.t3_c10.springboot_rest_data_services</artifactId>
+    <artifactId>DAM08_Ticket-Management-Application</artifactId>
     <version>2024.01</version>
 
     <description>Scrum REST DATA Secured Services for SpringBoot</description>
@@ -83,6 +83,12 @@
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+
 
         <!-- Spring Boot test plus -->
         <dependency>

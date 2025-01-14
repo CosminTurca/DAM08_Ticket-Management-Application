@@ -1,6 +1,6 @@
 package org.scrum.domain.project;
 
-
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -24,6 +26,9 @@ public class Sofer implements Serializable {
     private String nume;
     @NotNull(message = "Permisul de conducere este obligatoriu!")
     private String permisConducere;
+    @OneToMany(mappedBy = "sofer", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
+    private List<Vehicul> vehicule = new ArrayList<>();
     public Sofer(Integer soferId, String nume, String permisConducere) {
         this.soferId = soferId;
         this.nume = nume;

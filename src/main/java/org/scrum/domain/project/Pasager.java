@@ -40,4 +40,7 @@ public class Pasager implements Serializable {
         this.email = email;
         this.telefon = telefon;
     }
+    public void setPasagerId(Integer pasagerId) {
+        this.pasagerId = pasagerId;
+    }
 }
