@@ -29,7 +29,7 @@ public class Sofer implements Serializable {
     @OneToMany(mappedBy = "sofer", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<Vehicul> vehicule = new ArrayList<>();
-    public Sofer(Integer soferId, String nume, String permisConducere) {
+    public Sofer(int soferId, String nume, String permisConducere) {
         this.soferId = soferId;
         this.nume = nume;
         this.permisConducere = permisConducere;

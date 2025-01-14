@@ -25,10 +25,10 @@ public class Plata implements Serializable {
     @NotNull(message = "Metoda de plată este obligatorie!")
     @Size(min = 3, message = "Metoda de plată trebuie să aibă cel puțin 3 caractere!")
     private String metodaPlata;
-
     @NotNull(message = "Statusul plății este obligatoriu!")
     private Boolean statusPlata;
-    public Plata(Double suma, String metodaPlata, Boolean statusPlata) {
+    public Plata(int plataId, Double suma, String metodaPlata, Boolean statusPlata) {
+        this.plataId = plataId;
         this.suma = suma;
         this.metodaPlata = metodaPlata;
         this.statusPlata = statusPlata;

@@ -4,42 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f429a549-0c1e-4b1d-91d5-73f4639198f4" name="Changes" comment="Update Project Class + Add Annotations, Database, Repository, Security">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/PasagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/PlataController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/ProgramRutaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/RutaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/SoferController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/TichetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/controller/VehiculController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/PasagerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/PlataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/ProgramRutaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/RutaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/SoferService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/TichetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/services/VehiculService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/scrum/security/Test_AddScrumUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/docker-admin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/database/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/database/DataLoader.java" afterDir="false" />
+    <list default="true" id="f429a549-0c1e-4b1d-91d5-73f4639198f4" name="Changes" comment="Add Controller + Services">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/test/AchizitionareBiletCalatorieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scrum/test/RezervareBiletRutaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Pasager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Pasager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Plata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Plata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/ProgramRuta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/ProgramRuta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Sofer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Sofer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Tichet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Tichet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Vehicul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scrum/domain/project/Vehicul.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/database/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/database/DataLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Pasager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Pasager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Ruta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Ruta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Sofer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Sofer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Tichet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Tichet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Vehicul.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/domain/project/Vehicul.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/scrum/security/BasicConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/scrum/security/BasicConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +125,7 @@
       <workItem from="1736867269428" duration="87000" />
       <workItem from="1736867381005" duration="415000" />
       <workItem from="1736877675578" duration="623000" />
-      <workItem from="1736886449643" duration="391000" />
+      <workItem from="1736886449643" duration="3305000" />
     </task>
     <task id="LOCAL-00001" summary="Update Project Class + Add Annotations, Database, Repository, Security">
       <option name="closed" value="true" />
@@ -187,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736612163009</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Controller + Services">
+      <option name="closed" value="true" />
+      <created>1736888723232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736888723233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Actualizare proiect- dependente" />
     <MESSAGE value="Update Project Class + Add Annotations, Database, Repository, Security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Project Class + Add Annotations, Database, Repository, Security" />
+    <MESSAGE value="Add Controller + Services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Controller + Services" />
   </component>
 </project>

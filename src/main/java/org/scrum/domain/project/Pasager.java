@@ -34,7 +34,7 @@ public class Pasager implements Serializable {
         this.email = email;
         this.telefon = telefon;
     }
-    public Pasager(Integer pasagerId, String nume, String email, String telefon) {
+    public Pasager(int pasagerId, String nume, String email, String telefon) {
         this.pasagerId = pasagerId;
         this.nume = nume;
         this.email = email;

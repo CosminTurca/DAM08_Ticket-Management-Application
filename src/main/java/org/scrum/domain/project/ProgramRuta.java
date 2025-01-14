@@ -24,7 +24,8 @@ public class ProgramRuta implements Serializable {
     @NotNull(message = "Ora de sosire este obligatorie!")
     @Pattern(regexp = "^([01]?\\d|2[0-3]):[0-5]\\d$", message = "Ora de sosire trebuie să fie în format HH:mm!")
     private String oraSosire;
-    public ProgramRuta(String oraPlecare, String oraSosire) {
+    public ProgramRuta(int programId, String oraPlecare, String oraSosire) {
+        this.programId = programId;
         this.oraPlecare = oraPlecare;
         this.oraSosire = oraSosire;
     }

@@ -33,12 +33,13 @@ public class Vehicul implements Serializable {
     @JoinColumn(name = "ruta_id")
     @JsonBackReference
     private Ruta ruta;
-    public Vehicul(String numarInmatriculare, int capacitate, Sofer sofer) {
+    public Vehicul(int vehiculId, String numarInmatriculare, int capacitate, Sofer sofer) {
+        this.vehiculId = vehiculId;
         this.numarInmatriculare = numarInmatriculare;
         this.capacitate = capacitate;
         this.sofer = sofer;
     }
-    public void setVehiculId(Integer vehiculId) {
+    public void setVehiculId(int vehiculId) {
         this.vehiculId =vehiculId;
     }
 }
